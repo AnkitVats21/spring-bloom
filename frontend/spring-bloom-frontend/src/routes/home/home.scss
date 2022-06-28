@@ -1,0 +1,46 @@
+
+.nav-container {
+    height: 58px;
+    width: 100%;
+    position: fixed;
+    color: white;
+    //text-transform: uppercase;
+    letter-spacing: 0.025em;
+    transition: background-color 0.2s linear;
+
+    .links{
+        text-decoration: none;
+    }
+
+    
+
+    .nav-row {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding-right: 25px;
+            padding-left: 25px;
+            padding-top: 18px;
+    
+            .nav-logo {
+                display: inline-block;
+                font-weight: 900;
+                font-size: larger;
+            }
+    
+            .nav-controls {
+                display: flex;
+                float: right;
+
+                .signup {
+                        text-decoration: none;
+                        border: 1px solid rgb(84, 84, 84);
+                    }
+    
+                a {
+                    padding: 5px 10px;
+                }
+            }
+        }
+}
+
